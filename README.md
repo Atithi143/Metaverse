@@ -1,4 +1,4 @@
-Metaverse
+#Metaverse
 A simple concept of a Metaverse using JavaScript and three.js.
 
 License
