@@ -14,10 +14,10 @@ https://goerli.etherscan.io/address/0x6e36842362BF84A8B8724993E7CAE05152ABe67a
 
 * Go to the contract
 * Click on Connect to Web3
-Go to the 2nd Option (Mint)
-Add mint amount (Minimum: 0 ETH)
-Add amount of NFTs to be minted
-Run Locally
+* Go to the 2nd Option (Mint)
+* Add mint amount (Minimum: 0 ETH)
+* Add amount of NFTs to be minted
+* Run Locally
 # Clone the project
 
   git clone https://github.com/Atithi143/Metaverse.git
