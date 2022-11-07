@@ -20,7 +20,7 @@ Add amount of NFTs to be minted
 Run Locally
 Clone the project
 
-  git clone https://github.com/fizasayyed/Metaverse-Final.git
+  git clone https://github.com/Atithi143/Metaverse.git
 Go to the project directory
 
 Install lite-server or extension Live Server in VS Code
