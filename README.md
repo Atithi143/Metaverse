@@ -12,8 +12,8 @@ https://goerli.etherscan.io/address/0x6e36842362BF84A8B8724993E7CAE05152ABe67a
 # How to mint NFT?
 -Switch to Goerli Network in Metamask
 
-Go to the contract
-Click on Connect to Web3
+. Go to the contract
+. Click on Connect to Web3
 Go to the 2nd Option (Mint)
 Add mint amount (Minimum: 0 ETH)
 Add amount of NFTs to be minted
