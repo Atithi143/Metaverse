@@ -17,6 +17,21 @@ const dLight = new THREE.DirectionalLight(0xffffff, 0.5);
 light.add(dLight);
 scene.add(light);
 
+function pickRandom(array) {
+	return array[Math.floor(Math.random() * array.length)];
+}
+
+const buildingColors = [
+	0xff0000,
+	0xffa500,
+	0xffff00, 
+	0x00ff00,
+	0x0000ff,
+	0xccff99,
+	0xee82ee,
+	0xffff99
+  ];
+
 const geometry = new THREE.BoxGeometry( 50, 0.1, 50);
 const material = new THREE.MeshPhongMaterial( { color: 0xffffff } );
 const ground = new THREE.Mesh( geometry, material );
@@ -47,8 +62,9 @@ connect.then((result) =>{
     result.buildings.forEach((b, index) => {
 		if(index <= result.supply) {
 			// Adding colors from array =>
+            const color = pickRandom(buildingColors);
 			const boxGeometry = new THREE.BoxGeometry(b.w, b.h, b.d);
-			const boxMaterial = new THREE.MeshPhongMaterial( { color: 0x00ff00 } );
+			const boxMaterial = new THREE.MeshPhongMaterial( { color} );
 			const box = new THREE.Mesh( boxGeometry, boxMaterial );		
 			box.position.set(b.x, b.y, b.z);
 			scene.add( box );
