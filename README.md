@@ -28,4 +28,5 @@ Install lite-server or extension Live Server in VS Code
  npm install --global lite-server
 
   # screenshort
-  ![Screenshot (35)](https://user-images.githubusercontent.com/88091759/200397144-0c7db680-a614-4bde-b812-7b77ed536bb4.png)
+  
+![Screenshot (36)](https://user-images.githubusercontent.com/88091759/201348274-cb61e6a1-a0ab-462a-9892-7661135095c8.png)
